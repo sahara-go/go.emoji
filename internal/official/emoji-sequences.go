@@ -8,6 +8,12 @@
 package official
 
 func initAllSequences() {
+	AllSequences.AddSequence([]rune{0x2600}, "Basic_Emoji                   ==> ☀")
+	AllSequences.AddSequence([]rune{0x263a}, "Basic_Emoji                   ==> ☺")
+	AllSequences.AddSequence([]rune{0x2708}, "Basic_Emoji                   ==> ✈")
+	AllSequences.AddSequence([]rune{0x270c}, "Basic_Emoji                   ==> ✌")
+	AllSequences.AddSequence([]rune{0x2764}, "Basic_Emoji                   ==> ❤")
+
 	AllSequences.AddSequence([]rune{0x231a}, "Basic_Emoji                   ==> ⌚")
 	AllSequences.AddSequence([]rune{0x231a, 0xfe0e}, "Basic_Emoji                   ==> ⌚")
 	AllSequences.AddSequence([]rune{0x231b}, "Basic_Emoji                   ==> ⌛")
