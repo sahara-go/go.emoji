@@ -1,4 +1,4 @@
-module github.com/Andrew-M-C/go.emoji
+module github.com/sahara-go/go.emoji
 
 go 1.13
 
